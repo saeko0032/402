@@ -2,8 +2,10 @@ Q; What kind of design-pattern do you know?
 A. I know M-V-C, Model - View - Controller.
 When you design the Object-Oriented, Designing pattern is really important.
 
-Model -> POJO (no API, just properties, set/get, create Object just store the some data)
+Model -> POJO (no logic API,sometimes just properties, set/get, create Object just store the some data, manipulate data)
       -> (ex)Food, Drink...
 View  -> GraphicalUserInterface, storyboard
 Controller -> Connect Model and View together.
            -> (ex)UIViewController
+<<Case study>>
+Model(UIImage) -> (VC) -> Show the screen Evverytime we need VC to connect from Model to View
