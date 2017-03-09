@@ -10,7 +10,11 @@
 #import "Cloth.h"
 #import "FirstViewController.h"
 
-@protocol ClothViewControllerDelegate;
+@protocol ClothViewControllerDelegate <NSObject>
+@required
+@optional
+@end
+
 
 @interface ClothViewController : UIViewController
 @property (weak, nonatomic) id<ClothViewControllerDelegate> delegate;
@@ -23,8 +27,5 @@
 
 @end
 
-@protocol ClothViewControllerDelegate <NSObject>
-@required
-@optional
 
-@end
+

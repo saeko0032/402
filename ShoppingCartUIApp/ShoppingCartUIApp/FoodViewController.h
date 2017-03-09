@@ -7,10 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FirstViewController.h"
 #import "Food.h"
 
+@class FirstViewController;
+@protocol FoodViewControllerDelegate
+
+@required
+- (void)addItem:(Products*)product;
+
+@end
+
 @interface FoodViewController : UIViewController
+@property (weak, nonatomic) id<FoodViewControllerDelegate> foodViewDelegate;
 @property (weak, nonatomic) IBOutlet UITextField *foodIDTextField;
 @property (weak, nonatomic) IBOutlet UITextField *foodNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *foodPriceTextField;
@@ -20,3 +28,4 @@
 @property (weak, nonatomic) IBOutlet UITextField *foodIngredientTextField;
 
 @end
+

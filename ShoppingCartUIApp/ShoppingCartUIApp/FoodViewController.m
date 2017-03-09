@@ -7,6 +7,7 @@
 //
 
 #import "FoodViewController.h"
+#import "FirstViewController.h"
 
 @interface FoodViewController ()
 
@@ -46,8 +47,10 @@
                                    foodCalories:[self.foodCalorieTextField.text intValue]
                                 foodIngredients:foodIngredientsList];
     
-    UIViewController* previousViewController = [self presentingViewController];
-    [(FirstViewController*)previousViewController addObject:food];
+    
+    
+//    UIViewController* previousViewController = [self presentingViewController];
+//    [(FirstViewController*)previousViewController addObject:food];
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 

@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import "ShoppingCart.h"
+#import "FoodViewController.h"
 
 @interface FirstViewController ()
 
@@ -44,6 +45,12 @@
         totalPrice += [[self.shoppingCart.productItemArray objectAtIndex:i] calculateCost];
     }
     return totalPrice;
+}
+
+- (void)sendRequest
+{
+    FoodViewController* foodVC = [[FoodViewController alloc] init];
+    foodVC.foodViewDelegate = self;
 }
 
 

@@ -9,13 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "Products.h"
 #import "ShoppingCart.h"
+#import "FoodViewController.h"
+#import "ClothViewController.h"
+#import "DrinkViewController.h"
+@interface FirstViewController : UIViewController<FoodViewControllerDelegate,  ClothViewControllerDelegate>
 
-@interface FirstViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *pricaLabel;
 @property (strong,nonatomic) ShoppingCart* shoppingCart;
 
 - (void)addObject:(Products*)products;
+- (void)sendRequest;
 
 @end
 
