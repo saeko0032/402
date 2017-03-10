@@ -39,8 +39,9 @@
                                          productPrice:[self.drinkPriceTextField.text floatValue] productMadeInCountry:self.drinkWhereFromTextField.text
                                           isDrinkDiet:self.drinkIsDietTextField.text
                                             drinkSize:[self.drinkSizeTextField.text intValue]];
-    UIViewController* previousViewController = [self presentingViewController];
-    [(FirstViewController*)previousViewController addObject:drink];
+    if([self.delegate respondsToSelector:@selector(addProductItem:)]) {
+        [self.delegate addProductItem:drink];
+    }
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 

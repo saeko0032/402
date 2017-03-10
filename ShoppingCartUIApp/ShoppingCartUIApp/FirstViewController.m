@@ -16,7 +16,8 @@
 
 @implementation FirstViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.pricaLabel.text = @"0";
@@ -24,18 +25,28 @@
     self.shoppingCart = [[ShoppingCart alloc] initWithProductItemArray:productItemArray totalPricce:0];
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([[segue identifier] isEqualToString:@"foodSegue"]) {
+        ((FoodViewController*)segue.destinationViewController).delegate = self;
+    } else if([[segue identifier] isEqualToString:@"drinkSegue"]) {
+        ((DrinkViewController*)segue.destinationViewController).delegate = self;
+    } else if([[segue identifier] isEqualToString:@"clothSegue"]) {
+        ((ClothViewController*)segue.destinationViewController).delegate = self;
+    } else if([[segue identifier] isEqualToString:@"shoppingCartSegue"]) {
+        ((ShoppingCartViewController*)segue.destinationViewController).delegate = self;
+    }
+}
 
-- (void)viewWillAppear:(BOOL)animated {
+- (void)viewWillAppear:(BOOL)animated
+{
     self.pricaLabel.text = [NSString stringWithFormat:@"%d",[self caluculateAllItems]];
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)addObject:(Products*)products{
-    [self.shoppingCart addProductItem:products];
 }
 
 - (int)caluculateAllItems
@@ -47,11 +58,19 @@
     return totalPrice;
 }
 
-- (void)sendRequest
+-(void)mymodalviewcontroller:(NSString*)message
 {
-    FoodViewController* foodVC = [[FoodViewController alloc] init];
-    foodVC.foodViewDelegate = self;
+    NSLog(@"KAKIKUKEKO");
 }
 
+-(void)addProductItem:(Products*)item
+{
+    [self.shoppingCart addProductItem:item];
+}
+
+-(void)getItemData:(ShoppingCartViewController*)shoppingViewController item:(NSMutableArray<Products*>*)item {
+    item = self.shoppingCart.productItemArray;
+    [shoppingViewController updateTextView:item];
+}
 
 @end

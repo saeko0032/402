@@ -7,11 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FirstViewController.h"
+#import "ShoppingCart.h"
+@class ShoppingCartViewController;
+
+@protocol ShoppingCartViewControllerDelegate
+@required
+-(void)getItemData:(ShoppingCartViewController*)shoppingViewController item:(NSMutableArray<Products*>*)item;
+@end
 
 @interface ShoppingCartViewController : UIViewController
-
-- (IBAction)closeShoppingCart:(UIButton *)sender;
+@property (weak, nonatomic) id<ShoppingCartViewControllerDelegate> delegate;
 @property (weak, nonatomic) IBOutlet UITextView *shoppingCartTextView;
+@property (strong, nonatomic) NSMutableArray<Products*>* productItemList;
+- (IBAction)closeShoppingCart:(UIButton *)sender;
+- (void)updateTextView:(NSMutableArray<Products*>*)items;
 
 @end

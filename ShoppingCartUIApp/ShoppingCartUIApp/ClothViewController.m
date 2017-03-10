@@ -48,8 +48,9 @@
                                              productName:self.ClothNameTextField.text
                                             productPrice:[self.clothPriceTextField.text floatValue]
                                     productMadeInCountry:self.clothWhereFromTextField.text clothMaterials:materialArray];
-        UIViewController* previousViewController = [self presentingViewController];
-        [(FirstViewController*)previousViewController addObject:cloth];
+    if([self.delegate respondsToSelector:@selector(addProductItem:)]) {
+        [self.delegate addProductItem:cloth];
+    }
         [self dismissViewControllerAnimated:YES completion:NULL];
 }
 

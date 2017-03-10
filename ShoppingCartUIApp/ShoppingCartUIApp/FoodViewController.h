@@ -9,16 +9,15 @@
 #import <UIKit/UIKit.h>
 #import "Food.h"
 
-@class FirstViewController;
-@protocol FoodViewControllerDelegate
+@class FoodViewController;
 
+@protocol FoodViewControllerDelegate <NSObject>
 @required
-- (void)addItem:(Products*)product;
-
+-(void)addProductItem:(Products*)item;
 @end
 
 @interface FoodViewController : UIViewController
-@property (weak, nonatomic) id<FoodViewControllerDelegate> foodViewDelegate;
+@property (weak, nonatomic) id<FoodViewControllerDelegate> delegate;
 @property (weak, nonatomic) IBOutlet UITextField *foodIDTextField;
 @property (weak, nonatomic) IBOutlet UITextField *foodNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *foodPriceTextField;

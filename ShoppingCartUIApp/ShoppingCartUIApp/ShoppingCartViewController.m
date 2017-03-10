@@ -36,9 +36,18 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    UIViewController* previousViewController = [self presentingViewController];
-    FirstViewController* firstVC = (FirstViewController*)previousViewController;
-    self.shoppingCartTextView.text = [firstVC.shoppingCart printAllPurchaseProducts];
+    self.productItemList = [[NSMutableArray alloc] init];
+    [self.delegate getItemData:self item:self.productItemList];
+}
+
+- (void)updateTextView:(NSMutableArray<Products*>*)items
+{
+    NSMutableString* text = [[NSMutableString alloc] init];
+    for(int i = 0; i<items.count; i++) {
+        Products* p1 = [items objectAtIndex:i];
+        text = [text stringByAppendingString:p1.productName];
+    }
+    self.shoppingCartTextView.text = text;
 }
 
 - (IBAction)closeShoppingCart:(UIButton *)sender {

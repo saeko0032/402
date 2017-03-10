@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "Drink.h"
-#import "FirstViewController.h"
+
+@protocol DrinkViewControllerDelegate <NSObject>
+@required
+-(void)addProductItem:(Products*)item;
+@end
 
 @interface DrinkViewController : UIViewController
+@property (weak, nonatomic) id<DrinkViewControllerDelegate> delegate;
 @property (weak, nonatomic) IBOutlet UITextField *drinkIDTextField;
 @property (weak, nonatomic) IBOutlet UITextField *drinkNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *drinkPriceTextField;

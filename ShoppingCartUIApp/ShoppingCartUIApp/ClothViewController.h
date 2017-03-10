@@ -8,13 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "Cloth.h"
-#import "FirstViewController.h"
 
-@protocol ClothViewControllerDelegate <NSObject>
+@protocol ClothViewControllerDelegate<NSObject>
 @required
-@optional
+-(void)addProductItem:(Products*)item;
 @end
-
 
 @interface ClothViewController : UIViewController
 @property (weak, nonatomic) id<ClothViewControllerDelegate> delegate;

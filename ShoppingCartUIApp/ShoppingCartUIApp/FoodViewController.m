@@ -14,6 +14,7 @@
 @end
 
 @implementation FoodViewController
+@synthesize delegate;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -47,14 +48,15 @@
                                    foodCalories:[self.foodCalorieTextField.text intValue]
                                 foodIngredients:foodIngredientsList];
     
+    if([self.delegate respondsToSelector:@selector(addProductItem:)]) {
+    [self.delegate addProductItem:food];
+    }
     
-    
-//    UIViewController* previousViewController = [self presentingViewController];
-//    [(FirstViewController*)previousViewController addObject:food];
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 - (IBAction)closePage:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
+
 @end

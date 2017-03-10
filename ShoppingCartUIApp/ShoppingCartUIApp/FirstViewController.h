@@ -10,16 +10,16 @@
 #import "Products.h"
 #import "ShoppingCart.h"
 #import "FoodViewController.h"
-#import "ClothViewController.h"
 #import "DrinkViewController.h"
-@interface FirstViewController : UIViewController<FoodViewControllerDelegate,  ClothViewControllerDelegate>
+#import "ClothViewController.h"
+#import "ShoppingCartViewController.h"
 
+@interface FirstViewController : UIViewController<FoodViewControllerDelegate, DrinkViewControllerDelegate, ClothViewControllerDelegate, ShoppingCartViewControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *pricaLabel;
 @property (strong,nonatomic) ShoppingCart* shoppingCart;
 
-- (void)addObject:(Products*)products;
-- (void)sendRequest;
+- (void)addProductItem:(Products*)products;
 
 @end
 
