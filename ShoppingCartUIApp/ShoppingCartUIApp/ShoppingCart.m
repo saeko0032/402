@@ -10,7 +10,9 @@
 
 @implementation ShoppingCart
 
-- (id)initWithProductItemArray:(NSMutableArray<Products *> *)productItemArray totalPricce:(int)totalPrice {
+- (id)initWithProductItemArray:(NSMutableArray<Products *> *)productItemArray
+                   totalPricce:(int)totalPrice
+{
     self = [super init];
     if (self) {
         self.productItemArray = productItemArray;
@@ -18,24 +20,18 @@
     return self;
 }
 
-- (void)addProductItem:(Products *)product {
+- (void)addProductItem:(Products *)product
+{
     [self.productItemArray addObject:product];
 }
 
-- (int)totalProductsPrice {
-    return self.totalPrice;
-}
-
-- (NSMutableString*)printAllPurchaseProducts {
-    NSMutableString* allString = [[NSMutableString alloc] init];
-    for (int i = 0; i <self.productItemArray.count; i++) {
-    
-        Products* p = [self.productItemArray objectAtIndex:i];
-         allString = [[allString stringByAppendingString:p.productName] stringByAppendingString:@" "];
+- (int)caluculateAllItems
+{
+    int totalPrice = 0;
+    for(int i = 0; i < self.productItemArray.count; i++) {
+        totalPrice += [[self.productItemArray objectAtIndex:i] calculateCost];
     }
-    NSString* test = @"test";
-    NSLog(@"%@",test);
-    return allString;
+    return totalPrice;
 }
 
 @end

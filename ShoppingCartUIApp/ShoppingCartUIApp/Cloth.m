@@ -10,9 +10,17 @@
 
 @implementation Cloth
 
-- (id)initWithClothMaterials:(int)productID productName:(NSString *)productName productPrice:(float)productPrice productMadeInCountry:(NSString *)productMadeInCountry clothMaterials:(NSArray<Material*>*)clothMaterials{
+- (id)initWithClothMaterials:(int)productID
+                 productName:(NSString *)productName
+                productPrice:(float)productPrice
+        productMadeInCountry:(NSString *)productMadeInCountry
+              clothMaterials:(NSArray<Material*>*)clothMaterials
+{
     
-    self = [super initWithProductId:productID productName:productName productPrice:productPrice productMadeInCountry:productMadeInCountry];
+    self = [super initWithProductId:productID
+                        productName:productName
+                       productPrice:productPrice
+               productMadeInCountry:productMadeInCountry];
     
     if(self) {
         self.clothMaterials = clothMaterials;
@@ -20,7 +28,8 @@
     return self;
 }
 
-- (float)calculateCost {
+- (float)calculateCost
+{
     return self.productPrice;
 }
 

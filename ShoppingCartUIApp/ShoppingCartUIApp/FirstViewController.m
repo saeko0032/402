@@ -16,11 +16,14 @@
 
 @implementation FirstViewController
 
+// automatically called method //
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    self.pricaLabel.text = @"0";
+    // initial price is 0.
+    self.priceLabel.text = @"0";
+    
+    // make shoppingCartObject before use.
     NSMutableArray<Products*>* productItemArray = [[NSMutableArray alloc] init];
     self.shoppingCart = [[ShoppingCart alloc] initWithProductItemArray:productItemArray totalPricce:0];
 }
@@ -40,7 +43,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    self.pricaLabel.text = [NSString stringWithFormat:@"%d",[self caluculateAllItems]];
+    self.priceLabel.text = [NSString stringWithFormat:@"%d",[self.shoppingCart caluculateAllItems]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,26 +52,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (int)caluculateAllItems
-{
-    int totalPrice = 0;
-    for(int i = 0; i < self.shoppingCart.productItemArray.count; i++) {
-        totalPrice += [[self.shoppingCart.productItemArray objectAtIndex:i] calculateCost];
-    }
-    return totalPrice;
-}
-
--(void)mymodalviewcontroller:(NSString*)message
-{
-    NSLog(@"KAKIKUKEKO");
-}
-
 -(void)addProductItem:(Products*)item
 {
     [self.shoppingCart addProductItem:item];
 }
 
--(void)getItemData:(ShoppingCartViewController*)shoppingViewController item:(NSMutableArray<Products*>*)item {
+-(void)getItemData:(ShoppingCartViewController*)shoppingViewController
+{
+    NSMutableArray* item = [[NSMutableArray alloc] init];
     item = self.shoppingCart.productItemArray;
     [shoppingViewController updateTextView:item];
 }

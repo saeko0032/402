@@ -48,4 +48,7 @@
 - (IBAction)closePage:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
+- (IBAction)closeKeyboard:(UIButton *)sender {
+    [self.view endEditing:YES];
+}
 @end

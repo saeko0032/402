@@ -10,9 +10,18 @@
 
 @implementation Drink
 
-- (id)initWithIsDrinkDiet:(int)productID productName:(NSString *)productName productPrice:(float)productPrice productMadeInCountry:(NSString *)productMadeInCountry isDrinkDiet:(bool)isDrinkDiet drinkSize:(int)drinkSize {
+- (id)initWithIsDrinkDiet:(int)productID
+              productName:(NSString *)productName
+             productPrice:(float)productPrice
+     productMadeInCountry:(NSString *)productMadeInCountry
+              isDrinkDiet:(bool)isDrinkDiet
+                drinkSize:(int)drinkSize
+{
     
-    self = [super initWithProductId:productID productName:productName productPrice:productPrice productMadeInCountry:productMadeInCountry];
+    self = [super initWithProductId:productID
+                        productName:productName
+                       productPrice:productPrice
+               productMadeInCountry:productMadeInCountry];
     
     if(self) {
         self.isDrinkDiet = isDrinkDiet;
@@ -21,7 +30,8 @@
     return self;
 }
 
-- (float)calculateCost {
+- (float)calculateCost
+{
     return self.productPrice;
 }
 

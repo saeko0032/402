@@ -10,7 +10,9 @@
 
 @implementation Material
 
-- (id)initWithMaterialCode:(int)materialCode materialName:(NSString *)materialName {
+- (id)initWithMaterialCode:(int)materialCode
+              materialName:(NSString *)materialName
+{
     self = [super init];
     if (self) {
         self.materialCode = materialCode;

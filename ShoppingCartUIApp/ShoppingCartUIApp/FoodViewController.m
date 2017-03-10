@@ -49,7 +49,7 @@
                                 foodIngredients:foodIngredientsList];
     
     if([self.delegate respondsToSelector:@selector(addProductItem:)]) {
-    [self.delegate addProductItem:food];
+        [self.delegate addProductItem:food];
     }
     
     [self dismissViewControllerAnimated:YES completion:NULL];
@@ -57,6 +57,9 @@
 
 - (IBAction)closePage:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:NULL];
+}
+- (IBAction)closeKeyboard:(UIButton *)sender {
+    [self.view endEditing:YES];
 }
 
 @end

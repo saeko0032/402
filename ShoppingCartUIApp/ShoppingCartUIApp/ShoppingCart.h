@@ -14,9 +14,9 @@
 @property (nonatomic) int totalPrice;
 @property (strong, nonatomic)NSMutableArray<Products*>* productItemArray;
 
-- (id)initWithProductItemArray:(NSMutableArray<Products*>*)productItemArray totalPricce:(int)totalPrice;
+- (id)initWithProductItemArray:(NSMutableArray<Products*>*)productItemArray
+                   totalPricce:(int)totalPrice;
 - (void)addProductItem:(Products*)product;
-- (int)totalProductsPrice;
-- (NSMutableString*)printAllPurchaseProducts;
+- (int)caluculateAllItems;
 
 @end

@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ShoppingCartUIApp/ShoppingCart.m"
-            timestampString = "510724795.800568"
+            filePath = "ShoppingCartUIApp/ShoppingCartViewController.m"
+            timestampString = "510816495.95335"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "-printAllPurchaseProducts"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-updateTextView:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -16,10 +16,10 @@
 
 @interface FirstViewController : UIViewController<FoodViewControllerDelegate, DrinkViewControllerDelegate, ClothViewControllerDelegate, ShoppingCartViewControllerDelegate>
 
-@property (weak, nonatomic) IBOutlet UILabel *pricaLabel;
+@property (weak, nonatomic) IBOutlet UILabel *priceLabel;
 @property (strong,nonatomic) ShoppingCart* shoppingCart;
 
-- (void)addProductItem:(Products*)products;
+- (void)addProductItem:(Products*)item;
 
 @end
 

@@ -14,6 +14,12 @@
 @property (nonatomic) int foodCalories;
 @property (strong,nonatomic) NSArray<NSString*>* foodIngredients;
 
-- (id)initWithFoodSize:(int)productID productName:(NSString*)productName productPrice:(float)productPrice productMadeInCountry:(NSString*)productMadeInCountry foodSize:(int)foodSize foodCalories:(int)foodCalories foodIngredients:(NSArray<NSString*>*)foodIngredients;
+- (id)initWithFoodSize:(int)productID
+           productName:(NSString*)productName
+          productPrice:(float)productPrice
+  productMadeInCountry:(NSString*)productMadeInCountry
+              foodSize:(int)foodSize
+          foodCalories:(int)foodCalories
+       foodIngredients:(NSArray<NSString*>*)foodIngredients;
 
 @end

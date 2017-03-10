@@ -108,11 +108,11 @@
 		EDDEE18B1E6FBF7E00C2CCCB /* ShoppingCartUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				EDDEE1C71E6FC5C000C2CCCB /* ViewController */,
 				EDDEE1BD1E6FBFB500C2CCCB /* Product */,
 				EDDEE18F1E6FBF7E00C2CCCB /* AppDelegate.h */,
 				EDDEE1901E6FBF7E00C2CCCB /* AppDelegate.m */,
 				EDDEE1951E6FBF7E00C2CCCB /* Main.storyboard */,
-				EDDEE1C71E6FC5C000C2CCCB /* ViewController */,
 				EDDEE1981E6FBF7E00C2CCCB /* Assets.xcassets */,
 				EDDEE19A1E6FBF7E00C2CCCB /* LaunchScreen.storyboard */,
 				EDDEE19D1E6FBF7E00C2CCCB /* Info.plist */,

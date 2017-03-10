@@ -37,15 +37,15 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     self.productItemList = [[NSMutableArray alloc] init];
-    [self.delegate getItemData:self item:self.productItemList];
+    [self.delegate getItemData:self];
 }
 
 - (void)updateTextView:(NSMutableArray<Products*>*)items
 {
-    NSMutableString* text = [[NSMutableString alloc] init];
+    NSString* text = [[NSString alloc] init];
     for(int i = 0; i<items.count; i++) {
         Products* p1 = [items objectAtIndex:i];
-        text = [text stringByAppendingString:p1.productName];
+        text = [[text stringByAppendingString:p1.productName] stringByAppendingString:@" "];
     }
     self.shoppingCartTextView.text = text;
 }

@@ -10,9 +10,19 @@
 
 @implementation Food
 
-- (id)initWithFoodSize:(int)productID productName:(NSString *)productName productPrice:(float)productPrice productMadeInCountry:(NSString *)productMadeInCountry foodSize:(int)foodSize foodCalories:(int)foodCalories foodIngredients:(NSArray<NSString *> *)foodIngredients {
+- (id)initWithFoodSize:(int)productID
+           productName:(NSString*)productName
+          productPrice:(float)productPrice
+  productMadeInCountry:(NSString *)productMadeInCountry
+              foodSize:(int)foodSize
+          foodCalories:(int)foodCalories
+       foodIngredients:(NSArray<NSString*>*)foodIngredients
+{
 
-    self = [super initWithProductId:productID productName:productName productPrice:productPrice productMadeInCountry:productMadeInCountry];
+    self = [super initWithProductId:productID
+                        productName:productName
+                       productPrice:productPrice
+               productMadeInCountry:productMadeInCountry];
     
     if(self) {
         self.foodSize = foodSize;
@@ -22,7 +32,8 @@
     return self;
 }
 
-- (float)calculateCost {
+- (float)calculateCost
+{
     return self.foodSize * self.productPrice;
 }
 

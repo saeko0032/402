@@ -12,7 +12,7 @@
 
 @protocol ShoppingCartViewControllerDelegate
 @required
--(void)getItemData:(ShoppingCartViewController*)shoppingViewController item:(NSMutableArray<Products*>*)item;
+-(void)getItemData:(ShoppingCartViewController*)shoppingViewController;
 @end
 
 @interface ShoppingCartViewController : UIViewController

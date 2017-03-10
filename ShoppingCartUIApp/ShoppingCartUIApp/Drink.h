@@ -13,6 +13,11 @@
 @property (nonatomic) bool isDrinkDiet;
 @property (nonatomic) int drinkSize;
 
-- (id)initWithIsDrinkDiet:(int)productID productName:(NSString*)productName productPrice:(float)productPrice productMadeInCountry:(NSString*)productMadeInCountry isDrinkDiet:(bool)isDrinkDiet drinkSize:(int)drinkSize;
+- (id)initWithIsDrinkDiet:(int)productID
+              productName:(NSString*)productName
+             productPrice:(float)productPrice
+     productMadeInCountry:(NSString*)productMadeInCountry
+              isDrinkDiet:(bool)isDrinkDiet
+                drinkSize:(int)drinkSize;
 
 @end

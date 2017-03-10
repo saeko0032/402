@@ -26,7 +26,8 @@
     return self;
 }
 
-- (float)calculateCost {
+- (float)calculateCost
+{
     return self.productPrice;
 }
 

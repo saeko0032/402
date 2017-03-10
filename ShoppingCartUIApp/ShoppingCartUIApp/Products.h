@@ -15,7 +15,10 @@
 @property (nonatomic) float productPrice;
 @property (strong, nonatomic) NSString* productMadeInCountry;
 
-- (id)initWithProductId:(int)productID productName:(NSString*)productName productPrice:(float)productPrice productMadeInCountry:(NSString*)productMadeInCountry;
+- (id)initWithProductId:(int)productID
+            productName:(NSString*)productName
+           productPrice:(float)productPrice
+   productMadeInCountry:(NSString*)productMadeInCountry;
 - (float)calculateCost;
 
 @end
