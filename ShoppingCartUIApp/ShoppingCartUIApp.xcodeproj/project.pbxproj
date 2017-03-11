@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED7D78EF1E73A21600C5D7E8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7D78EE1E73A21600C5D7E8 /* TableViewController.m */; };
+		ED7D79241E73A9F000C5D7E8 /* TextFieldTableCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7D79231E73A9F000C5D7E8 /* TextFieldTableCellTableViewCell.m */; };
+		ED7D79271E73AA1400C5D7E8 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7D79261E73AA1400C5D7E8 /* ImageTableViewCell.m */; };
 		EDDEE18E1E6FBF7E00C2CCCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEE18D1E6FBF7E00C2CCCB /* main.m */; };
 		EDDEE1911E6FBF7E00C2CCCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEE1901E6FBF7E00C2CCCB /* AppDelegate.m */; };
 		EDDEE1941E6FBF7E00C2CCCB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDEE1931E6FBF7E00C2CCCB /* FirstViewController.m */; };
@@ -33,10 +36,24 @@
 			remoteGlobalIDString = EAF1E75F1E7241EE00DCA1BB;
 			remoteInfo = SampleDelegate;
 		};
+		ED7D791D1E73A78000C5D7E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7D79181E73A77F00C5D7E8 /* TableViewController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED7D78FE1E73A77E00C5D7E8;
+			remoteInfo = TableViewController;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EAF1E7791E7241EE00DCA1BB /* SampleDelegate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleDelegate.xcodeproj; path = SampleDelegate/SampleDelegate.xcodeproj; sourceTree = "<group>"; };
+		ED7D78ED1E73A21600C5D7E8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		ED7D78EE1E73A21600C5D7E8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		ED7D79181E73A77F00C5D7E8 /* TableViewController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TableViewController.xcodeproj; path = TableViewController/TableViewController.xcodeproj; sourceTree = "<group>"; };
+		ED7D79221E73A9F000C5D7E8 /* TextFieldTableCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldTableCellTableViewCell.h; sourceTree = "<group>"; };
+		ED7D79231E73A9F000C5D7E8 /* TextFieldTableCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldTableCellTableViewCell.m; sourceTree = "<group>"; };
+		ED7D79251E73AA1400C5D7E8 /* ImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		ED7D79261E73AA1400C5D7E8 /* ImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
 		EDDEE1891E6FBF7E00C2CCCB /* ShoppingCartUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCartUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDEE18D1E6FBF7E00C2CCCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDDEE18F1E6FBF7E00C2CCCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,9 +105,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		ED7D79191E73A77F00C5D7E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7D791E1E73A78000C5D7E8 /* TableViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7D79281E73AA2200C5D7E8 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				ED7D78ED1E73A21600C5D7E8 /* TableViewController.h */,
+				ED7D78EE1E73A21600C5D7E8 /* TableViewController.m */,
+				ED7D79221E73A9F000C5D7E8 /* TextFieldTableCellTableViewCell.h */,
+				ED7D79231E73A9F000C5D7E8 /* TextFieldTableCellTableViewCell.m */,
+				ED7D79251E73AA1400C5D7E8 /* ImageTableViewCell.h */,
+				ED7D79261E73AA1400C5D7E8 /* ImageTableViewCell.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
 		EDDEE1801E6FBF7E00C2CCCB = {
 			isa = PBXGroup;
 			children = (
+				ED7D79181E73A77F00C5D7E8 /* TableViewController.xcodeproj */,
 				EAF1E7791E7241EE00DCA1BB /* SampleDelegate.xcodeproj */,
 				EDDEE18B1E6FBF7E00C2CCCB /* ShoppingCartUIApp */,
 				EDDEE18A1E6FBF7E00C2CCCB /* Products */,
@@ -159,6 +198,7 @@
 				EDDEE1C21E6FC55800C2CCCB /* DrinkViewController.m */,
 				EDDEE1C41E6FC56100C2CCCB /* ClothViewController.h */,
 				EDDEE1C51E6FC56100C2CCCB /* ClothViewController.m */,
+				ED7D79281E73AA2200C5D7E8 /* TableView */,
 				EDDEE1C81E6FCB7500C2CCCB /* ShoppingCartViewController.h */,
 				EDDEE1C91E6FCB7500C2CCCB /* ShoppingCartViewController.m */,
 			);
@@ -217,6 +257,10 @@
 					ProductGroup = EAF1E77A1E7241EE00DCA1BB /* Products */;
 					ProjectRef = EAF1E7791E7241EE00DCA1BB /* SampleDelegate.xcodeproj */;
 				},
+				{
+					ProductGroup = ED7D79191E73A77F00C5D7E8 /* Products */;
+					ProjectRef = ED7D79181E73A77F00C5D7E8 /* TableViewController.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -231,6 +275,13 @@
 			fileType = wrapper.application;
 			path = SampleDelegate.app;
 			remoteRef = EAF1E77D1E7241F200DCA1BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ED7D791E1E73A78000C5D7E8 /* TableViewController.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TableViewController.app;
+			remoteRef = ED7D791D1E73A78000C5D7E8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -253,14 +304,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7D79241E73A9F000C5D7E8 /* TextFieldTableCellTableViewCell.m in Sources */,
 				EDDEE1B71E6FBFB200C2CCCB /* Cloth.m in Sources */,
 				EDDEE1C31E6FC55800C2CCCB /* DrinkViewController.m in Sources */,
 				EDDEE1BB1E6FBFB200C2CCCB /* Products.m in Sources */,
+				ED7D78EF1E73A21600C5D7E8 /* TableViewController.m in Sources */,
 				EDDEE1BA1E6FBFB200C2CCCB /* Material.m in Sources */,
 				EDDEE1CA1E6FCB7500C2CCCB /* ShoppingCartViewController.m in Sources */,
 				EDDEE1B81E6FBFB200C2CCCB /* Drink.m in Sources */,
 				EDDEE1941E6FBF7E00C2CCCB /* FirstViewController.m in Sources */,
 				EDDEE1BC1E6FBFB200C2CCCB /* ShoppingCart.m in Sources */,
+				ED7D79271E73AA1400C5D7E8 /* ImageTableViewCell.m in Sources */,
 				EDDEE1C01E6FC54A00C2CCCB /* FoodViewController.m in Sources */,
 				EDDEE1B91E6FBFB200C2CCCB /* Food.m in Sources */,
 				EDDEE1C61E6FC56100C2CCCB /* ClothViewController.m in Sources */,
