@@ -1,0 +1,10 @@
+C:\Users\saeko\source\repos\ConsoleApp1\Exercise1\bin\Debug\netcoreapp1.1\Exercise1.deps.json
+C:\Users\saeko\source\repos\ConsoleApp1\Exercise1\bin\Debug\netcoreapp1.1\Exercise1.runtimeconfig.json
+C:\Users\saeko\source\repos\ConsoleApp1\Exercise1\bin\Debug\netcoreapp1.1\Exercise1.runtimeconfig.dev.json
+C:\Users\saeko\source\repos\ConsoleApp1\Exercise1\bin\Debug\netcoreapp1.1\Exercise1.dll
+C:\Users\saeko\source\repos\ConsoleApp1\Exercise1\bin\Debug\netcoreapp1.1\Exercise1.pdb
+C:\Users\saeko\source\repos\ConsoleApp1\Exercise1\obj\Debug\netcoreapp1.1\Exercise1.csprojResolveAssemblyReference.cache
+C:\Users\saeko\source\repos\ConsoleApp1\Exercise1\obj\Debug\netcoreapp1.1\Exercise1.csproj.CoreCompileInputs.cache
+C:\Users\saeko\source\repos\ConsoleApp1\Exercise1\obj\Debug\netcoreapp1.1\Exercise1.AssemblyInfo.cs
+C:\Users\saeko\source\repos\ConsoleApp1\Exercise1\obj\Debug\netcoreapp1.1\Exercise1.dll
+C:\Users\saeko\source\repos\ConsoleApp1\Exercise1\obj\Debug\netcoreapp1.1\Exercise1.pdb

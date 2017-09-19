@@ -1,0 +1,9 @@
+C:\Users\saeko\source\repos\ConsoleApp1\ByteDemo\bin\Debug\netcoreapp1.1\ByteDemo.deps.json
+C:\Users\saeko\source\repos\ConsoleApp1\ByteDemo\bin\Debug\netcoreapp1.1\ByteDemo.runtimeconfig.json
+C:\Users\saeko\source\repos\ConsoleApp1\ByteDemo\bin\Debug\netcoreapp1.1\ByteDemo.runtimeconfig.dev.json
+C:\Users\saeko\source\repos\ConsoleApp1\ByteDemo\bin\Debug\netcoreapp1.1\ByteDemo.dll
+C:\Users\saeko\source\repos\ConsoleApp1\ByteDemo\bin\Debug\netcoreapp1.1\ByteDemo.pdb
+C:\Users\saeko\source\repos\ConsoleApp1\ByteDemo\obj\Debug\netcoreapp1.1\ByteDemo.csproj.CoreCompileInputs.cache
+C:\Users\saeko\source\repos\ConsoleApp1\ByteDemo\obj\Debug\netcoreapp1.1\ByteDemo.AssemblyInfo.cs
+C:\Users\saeko\source\repos\ConsoleApp1\ByteDemo\obj\Debug\netcoreapp1.1\ByteDemo.dll
+C:\Users\saeko\source\repos\ConsoleApp1\ByteDemo\obj\Debug\netcoreapp1.1\ByteDemo.pdb
