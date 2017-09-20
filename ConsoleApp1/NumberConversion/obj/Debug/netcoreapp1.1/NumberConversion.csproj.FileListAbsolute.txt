@@ -1,0 +1,9 @@
+C:\Users\saeko\source\repos\402\ConsoleApp1\NumberConversion\bin\Debug\netcoreapp1.1\NumberConversion.deps.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\NumberConversion\bin\Debug\netcoreapp1.1\NumberConversion.runtimeconfig.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\NumberConversion\bin\Debug\netcoreapp1.1\NumberConversion.runtimeconfig.dev.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\NumberConversion\bin\Debug\netcoreapp1.1\NumberConversion.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\NumberConversion\bin\Debug\netcoreapp1.1\NumberConversion.pdb
+C:\Users\saeko\source\repos\402\ConsoleApp1\NumberConversion\obj\Debug\netcoreapp1.1\NumberConversion.csproj.CoreCompileInputs.cache
+C:\Users\saeko\source\repos\402\ConsoleApp1\NumberConversion\obj\Debug\netcoreapp1.1\NumberConversion.AssemblyInfo.cs
+C:\Users\saeko\source\repos\402\ConsoleApp1\NumberConversion\obj\Debug\netcoreapp1.1\NumberConversion.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\NumberConversion\obj\Debug\netcoreapp1.1\NumberConversion.pdb

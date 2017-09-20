@@ -31,15 +31,36 @@ namespace ByteDemo
             Console.WriteLine("d1={0}", d1);
             Console.WriteLine("de={0}", d2);
             // float
-            float pi = 3.1415926535897932f;
+            float pi = 3.1415926535897932f; // ->3.145
+            Console.WriteLine("{0:F3}", pi); // Fixed upto 3 digi
+
             Console.WriteLine("pi={0}", pi);
+
+            double someVal = 1.234;// ->01.234000
+            Console.WriteLine("{0:00.000000}", someVal);
+
+            Console.WriteLine("{0:X}", 250);
+            // stromg formatting with left align or right align
+            double colaPrice = 1.20;
+            string cola = "Coca cola";
+            double fantaPrice = 1.20;
+            string fanta = "Fanta DIZZY";
+            double pepsiPrice = 1.50;
+            string pepsi = "pepsi";
+
+            Console.WriteLine("--------------------");
+            Console.WriteLine("{0,-20}{1:20}", cola, colaPrice); // - means left align + means right align // 15 blocks
+            Console.WriteLine("--------------------");
+            Console.WriteLine("{0,-20}{1:20}", fanta, fantaPrice); // - means left align + means right align // 15 blocks
+            Console.WriteLine("{0,-20}{1:20}", pepsi, pepsiPrice); // - means left align + means right align // 15 blocks
+
 
             //
             double a = 1.0f; // 1
             double b = 0.33f; //double>float // 0.33000000 +randomnumber
             double sum = 1.33f; // 1.33000000 + random number
             bool equal = (a + b == sum);
-            Console.WriteLine("result = a{0} b{1} sum{2} equal{3}",a,b,sum,equal); // false
+            Console.WriteLine("result = a{0} b{1} sum{2} equal{3}", a, b, sum, equal); // false
 
             byte centruies = 20;
             uint year = 2017;
@@ -78,4 +99,5 @@ namespace ByteDemo
             Console.Read();
         }
     }
+
 }

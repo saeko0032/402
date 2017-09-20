@@ -7045,11 +7045,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\saeko\\source\\repos\\ConsoleApp1\\Exercise1\\Exercise1.csproj",
+      "projectUniqueName": "C:\\Users\\saeko\\source\\repos\\402\\ConsoleApp1\\Exercise1\\Exercise1.csproj",
       "projectName": "Exercise1",
-      "projectPath": "C:\\Users\\saeko\\source\\repos\\ConsoleApp1\\Exercise1\\Exercise1.csproj",
+      "projectPath": "C:\\Users\\saeko\\source\\repos\\402\\ConsoleApp1\\Exercise1\\Exercise1.csproj",
       "packagesPath": "C:\\Users\\saeko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\saeko\\source\\repos\\ConsoleApp1\\Exercise1\\obj\\",
+      "outputPath": "C:\\Users\\saeko\\source\\repos\\402\\ConsoleApp1\\Exercise1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\saeko\\AppData\\Roaming\\NuGet\\NuGet.Config",

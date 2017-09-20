@@ -8,3 +8,13 @@ C:\Users\saeko\source\repos\ConsoleApp1\BooleanDemo\bin\Debug\netcoreapp1.1\Bool
 C:\Users\saeko\source\repos\ConsoleApp1\BooleanDemo\bin\Debug\netcoreapp1.1\BooleanDemo.pdb
 C:\Users\saeko\source\repos\ConsoleApp1\BooleanDemo\obj\Debug\netcoreapp1.1\BooleanDemo.dll
 C:\Users\saeko\source\repos\ConsoleApp1\BooleanDemo\obj\Debug\netcoreapp1.1\BooleanDemo.pdb
+C:\Users\saeko\source\repos\402\ConsoleApp1\BooleanDemo\bin\Debug\netcoreapp1.1\BooleanDemo.deps.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\BooleanDemo\bin\Debug\netcoreapp1.1\BooleanDemo.runtimeconfig.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\BooleanDemo\bin\Debug\netcoreapp1.1\BooleanDemo.runtimeconfig.dev.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\BooleanDemo\bin\Debug\netcoreapp1.1\BooleanDemo.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\BooleanDemo\bin\Debug\netcoreapp1.1\BooleanDemo.pdb
+C:\Users\saeko\source\repos\402\ConsoleApp1\BooleanDemo\obj\Debug\netcoreapp1.1\BooleanDemo.csprojResolveAssemblyReference.cache
+C:\Users\saeko\source\repos\402\ConsoleApp1\BooleanDemo\obj\Debug\netcoreapp1.1\BooleanDemo.csproj.CoreCompileInputs.cache
+C:\Users\saeko\source\repos\402\ConsoleApp1\BooleanDemo\obj\Debug\netcoreapp1.1\BooleanDemo.AssemblyInfo.cs
+C:\Users\saeko\source\repos\402\ConsoleApp1\BooleanDemo\obj\Debug\netcoreapp1.1\BooleanDemo.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\BooleanDemo\obj\Debug\netcoreapp1.1\BooleanDemo.pdb

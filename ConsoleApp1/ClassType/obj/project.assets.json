@@ -7045,11 +7045,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\saeko\\source\\repos\\ConsoleApp1\\ClassType\\ClassType.csproj",
+      "projectUniqueName": "C:\\Users\\saeko\\source\\repos\\402\\ConsoleApp1\\ClassType\\ClassType.csproj",
       "projectName": "ClassType",
-      "projectPath": "C:\\Users\\saeko\\source\\repos\\ConsoleApp1\\ClassType\\ClassType.csproj",
+      "projectPath": "C:\\Users\\saeko\\source\\repos\\402\\ConsoleApp1\\ClassType\\ClassType.csproj",
       "packagesPath": "C:\\Users\\saeko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\saeko\\source\\repos\\ConsoleApp1\\ClassType\\obj\\",
+      "outputPath": "C:\\Users\\saeko\\source\\repos\\402\\ConsoleApp1\\ClassType\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\saeko\\AppData\\Roaming\\NuGet\\NuGet.Config",

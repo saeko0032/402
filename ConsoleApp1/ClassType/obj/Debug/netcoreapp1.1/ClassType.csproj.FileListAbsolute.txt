@@ -8,3 +8,13 @@ C:\Users\saeko\source\repos\ConsoleApp1\ClassType\obj\Debug\netcoreapp1.1\ClassT
 C:\Users\saeko\source\repos\ConsoleApp1\ClassType\obj\Debug\netcoreapp1.1\ClassType.AssemblyInfo.cs
 C:\Users\saeko\source\repos\ConsoleApp1\ClassType\obj\Debug\netcoreapp1.1\ClassType.dll
 C:\Users\saeko\source\repos\ConsoleApp1\ClassType\obj\Debug\netcoreapp1.1\ClassType.pdb
+C:\Users\saeko\source\repos\402\ConsoleApp1\ClassType\bin\Debug\netcoreapp1.1\ClassType.deps.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\ClassType\bin\Debug\netcoreapp1.1\ClassType.runtimeconfig.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\ClassType\bin\Debug\netcoreapp1.1\ClassType.runtimeconfig.dev.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\ClassType\bin\Debug\netcoreapp1.1\ClassType.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\ClassType\bin\Debug\netcoreapp1.1\ClassType.pdb
+C:\Users\saeko\source\repos\402\ConsoleApp1\ClassType\obj\Debug\netcoreapp1.1\ClassType.csprojResolveAssemblyReference.cache
+C:\Users\saeko\source\repos\402\ConsoleApp1\ClassType\obj\Debug\netcoreapp1.1\ClassType.csproj.CoreCompileInputs.cache
+C:\Users\saeko\source\repos\402\ConsoleApp1\ClassType\obj\Debug\netcoreapp1.1\ClassType.AssemblyInfo.cs
+C:\Users\saeko\source\repos\402\ConsoleApp1\ClassType\obj\Debug\netcoreapp1.1\ClassType.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\ClassType\obj\Debug\netcoreapp1.1\ClassType.pdb

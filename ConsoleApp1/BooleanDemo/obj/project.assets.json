@@ -7045,11 +7045,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\saeko\\source\\repos\\ConsoleApp1\\BooleanDemo\\BooleanDemo.csproj",
+      "projectUniqueName": "C:\\Users\\saeko\\source\\repos\\402\\ConsoleApp1\\BooleanDemo\\BooleanDemo.csproj",
       "projectName": "BooleanDemo",
-      "projectPath": "C:\\Users\\saeko\\source\\repos\\ConsoleApp1\\BooleanDemo\\BooleanDemo.csproj",
+      "projectPath": "C:\\Users\\saeko\\source\\repos\\402\\ConsoleApp1\\BooleanDemo\\BooleanDemo.csproj",
       "packagesPath": "C:\\Users\\saeko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\saeko\\source\\repos\\ConsoleApp1\\BooleanDemo\\obj\\",
+      "outputPath": "C:\\Users\\saeko\\source\\repos\\402\\ConsoleApp1\\BooleanDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\saeko\\AppData\\Roaming\\NuGet\\NuGet.Config",

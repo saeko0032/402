@@ -1,0 +1,9 @@
+C:\Users\saeko\source\repos\402\ConsoleApp1\Demo\bin\Debug\netcoreapp1.1\Demo.deps.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\Demo\bin\Debug\netcoreapp1.1\Demo.runtimeconfig.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\Demo\bin\Debug\netcoreapp1.1\Demo.runtimeconfig.dev.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\Demo\bin\Debug\netcoreapp1.1\Demo.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\Demo\bin\Debug\netcoreapp1.1\Demo.pdb
+C:\Users\saeko\source\repos\402\ConsoleApp1\Demo\obj\Debug\netcoreapp1.1\Demo.csproj.CoreCompileInputs.cache
+C:\Users\saeko\source\repos\402\ConsoleApp1\Demo\obj\Debug\netcoreapp1.1\Demo.AssemblyInfo.cs
+C:\Users\saeko\source\repos\402\ConsoleApp1\Demo\obj\Debug\netcoreapp1.1\Demo.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\Demo\obj\Debug\netcoreapp1.1\Demo.pdb
