@@ -1,0 +1,10 @@
+C:\Users\saeko\source\repos\402\ConsoleApp1\ValueSwap\bin\Debug\netcoreapp1.1\ValueSwap.deps.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\ValueSwap\bin\Debug\netcoreapp1.1\ValueSwap.runtimeconfig.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\ValueSwap\bin\Debug\netcoreapp1.1\ValueSwap.runtimeconfig.dev.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\ValueSwap\bin\Debug\netcoreapp1.1\ValueSwap.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\ValueSwap\bin\Debug\netcoreapp1.1\ValueSwap.pdb
+C:\Users\saeko\source\repos\402\ConsoleApp1\ValueSwap\obj\Debug\netcoreapp1.1\ValueSwap.csprojResolveAssemblyReference.cache
+C:\Users\saeko\source\repos\402\ConsoleApp1\ValueSwap\obj\Debug\netcoreapp1.1\ValueSwap.csproj.CoreCompileInputs.cache
+C:\Users\saeko\source\repos\402\ConsoleApp1\ValueSwap\obj\Debug\netcoreapp1.1\ValueSwap.AssemblyInfo.cs
+C:\Users\saeko\source\repos\402\ConsoleApp1\ValueSwap\obj\Debug\netcoreapp1.1\ValueSwap.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\ValueSwap\obj\Debug\netcoreapp1.1\ValueSwap.pdb

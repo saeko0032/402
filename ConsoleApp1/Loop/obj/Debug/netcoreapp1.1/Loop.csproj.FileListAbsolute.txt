@@ -1,0 +1,10 @@
+C:\Users\saeko\source\repos\402\ConsoleApp1\Loop\bin\Debug\netcoreapp1.1\Loop.deps.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\Loop\bin\Debug\netcoreapp1.1\Loop.runtimeconfig.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\Loop\bin\Debug\netcoreapp1.1\Loop.runtimeconfig.dev.json
+C:\Users\saeko\source\repos\402\ConsoleApp1\Loop\bin\Debug\netcoreapp1.1\Loop.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\Loop\bin\Debug\netcoreapp1.1\Loop.pdb
+C:\Users\saeko\source\repos\402\ConsoleApp1\Loop\obj\Debug\netcoreapp1.1\Loop.csprojResolveAssemblyReference.cache
+C:\Users\saeko\source\repos\402\ConsoleApp1\Loop\obj\Debug\netcoreapp1.1\Loop.csproj.CoreCompileInputs.cache
+C:\Users\saeko\source\repos\402\ConsoleApp1\Loop\obj\Debug\netcoreapp1.1\Loop.AssemblyInfo.cs
+C:\Users\saeko\source\repos\402\ConsoleApp1\Loop\obj\Debug\netcoreapp1.1\Loop.dll
+C:\Users\saeko\source\repos\402\ConsoleApp1\Loop\obj\Debug\netcoreapp1.1\Loop.pdb

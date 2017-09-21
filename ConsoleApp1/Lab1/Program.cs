@@ -12,8 +12,8 @@ namespace Lab1
             //  Lab1.Task3();
             //  Lab1.Task4();
             //  Lab1.Task5();
-            // Lab1.Task6();
-            // Lab1.Task7();
+            //  Lab1.Task6();
+            //  Lab1.Task7();
             Lab1.Task8();
             Console.Read();
         }
