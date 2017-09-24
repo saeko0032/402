@@ -1,0 +1,11 @@
+/Users/fukuisaeko/Projects/Lab2/Lab2/bin/Debug/netcoreapp2.0/Lab2.deps.json
+/Users/fukuisaeko/Projects/Lab2/Lab2/bin/Debug/netcoreapp2.0/Lab2.runtimeconfig.json
+/Users/fukuisaeko/Projects/Lab2/Lab2/bin/Debug/netcoreapp2.0/Lab2.runtimeconfig.dev.json
+/Users/fukuisaeko/Projects/Lab2/Lab2/bin/Debug/netcoreapp2.0/Lab2.dll
+/Users/fukuisaeko/Projects/Lab2/Lab2/bin/Debug/netcoreapp2.0/Lab2.pdb
+/Users/fukuisaeko/Projects/Lab2/Lab2/obj/Debug/netcoreapp2.0/Lab2.csprojResolveAssemblyReference.cache
+/Users/fukuisaeko/Projects/Lab2/Lab2/obj/Debug/netcoreapp2.0/Lab2.csproj.CoreCompileInputs.cache
+/Users/fukuisaeko/Projects/Lab2/Lab2/obj/Debug/netcoreapp2.0/Lab2.AssemblyInfoInputs.cache
+/Users/fukuisaeko/Projects/Lab2/Lab2/obj/Debug/netcoreapp2.0/Lab2.AssemblyInfo.cs
+/Users/fukuisaeko/Projects/Lab2/Lab2/obj/Debug/netcoreapp2.0/Lab2.dll
+/Users/fukuisaeko/Projects/Lab2/Lab2/obj/Debug/netcoreapp2.0/Lab2.pdb
