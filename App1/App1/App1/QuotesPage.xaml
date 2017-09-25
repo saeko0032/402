@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.QuotesPage"
+             Padding="20">
+    <ContentPage.Content>
+        <StackLayout>
+        <Label Text="{Binding Source={x:Reference slider1},Path=Value,StringFormat='Font Size : {0}'}"
+               Opacity="{Binding Source={x:Reference slider1},Path=Value}"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               x:Name="label1"
+               />
+        <Slider 
+            Maximum="50"
+            Minimum="16"
+            HorizontalOptions="FillAndExpand"
+            x:Name="slider1"></Slider>
+            <Label Text="You can't blame gravity for falling love."
+                   x:Name="label2"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
