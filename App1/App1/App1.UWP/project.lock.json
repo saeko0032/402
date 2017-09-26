@@ -22263,12 +22263,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\saeko\\source\\repos\\App1\\App1\\App1.UWP\\App1.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\saeko\\source\\repos\\402\\App1\\App1\\App1.UWP\\App1.UWP.csproj",
       "projectName": "App1.UWP",
-      "projectPath": "C:\\Users\\saeko\\source\\repos\\App1\\App1\\App1.UWP\\App1.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\saeko\\source\\repos\\App1\\App1\\App1.UWP\\project.json",
+      "projectPath": "C:\\Users\\saeko\\source\\repos\\402\\App1\\App1\\App1.UWP\\App1.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\saeko\\source\\repos\\402\\App1\\App1\\App1.UWP\\project.json",
       "packagesPath": "C:\\Users\\saeko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\saeko\\source\\repos\\App1\\App1\\App1.UWP\\obj\\",
+      "outputPath": "C:\\Users\\saeko\\source\\repos\\402\\App1\\App1\\App1.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\saeko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22281,8 +22281,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "C:\\Users\\saeko\\source\\repos\\App1\\App1\\App1\\App1.csproj": {
-              "projectPath": "C:\\Users\\saeko\\source\\repos\\App1\\App1\\App1\\App1.csproj"
+            "C:\\Users\\saeko\\source\\repos\\402\\App1\\App1\\App1\\App1.csproj": {
+              "projectPath": "C:\\Users\\saeko\\source\\repos\\402\\App1\\App1\\App1\\App1.csproj"
             }
           }
         }

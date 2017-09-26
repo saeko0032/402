@@ -5,19 +5,14 @@
              Padding="20">
     <ContentPage.Content>
         <StackLayout>
-        <Label Text="{Binding Source={x:Reference slider1},Path=Value,StringFormat='Font Size : {0}'}"
-               Opacity="{Binding Source={x:Reference slider1},Path=Value}"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               x:Name="label1"
-               />
+            <Button Text="Next" Clicked="Button_Clicked" />
+            <Label Text="{Binding Source={x:Reference slider1},Path=Value,StringFormat='Font Size : {0:N0}'}"/>
         <Slider 
             Maximum="50"
             Minimum="16"
-            HorizontalOptions="FillAndExpand"
             x:Name="slider1"></Slider>
-            <Label Text="You can't blame gravity for falling love."
-                   x:Name="label2"/>
+            <Label x:Name="label2" FontSize="{Binding Source={x:Reference slider1},Path=Value}"
+                  />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

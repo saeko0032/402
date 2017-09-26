@@ -12,16 +12,20 @@ namespace App1
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class QuotesPage : ContentPage
     {
-        public QuotesPage()
+        private int index = 0;
+        private string[] messages = new string[]
         {
-            string[] messages = {
                 "1. You cant blame gravity for falling in love",
                 "2. Nothing is impossible",
                 "3. Nothing is impossible",
                 "4. Nothing is impossible",
-                "5. Nothing is impossible" };
-
+                "5. Nothing is impossible"
+        };
+        public QuotesPage()
+        {
+        
             InitializeComponent();
+            label2.Text = messages[index];
             string plat = Device.RuntimePlatform;
             if (plat.Equals("Android"))
             {
@@ -32,18 +36,18 @@ namespace App1
                 Padding = new Thickness(20, 40, 20, 20);
             }
 
-            if (slider1.Equals("16"))
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            index++;
+            if (index >= messages.Length)
             {
-                label2.Text = messages[0];
+                index = 0;
             }
-            else if (slider1.Equals("17"))
-            {
-                label2.Text = messages[1];
-            }
-            else if (slider1.Equals("50"))
-            {
-                label2.Text = messages[2];
-            }
+
+            label2.Text = messages[index];
+
         }
     }
 }
