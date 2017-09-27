@@ -13,7 +13,7 @@ namespace App1
         {
             InitializeComponent();
 
-            MainPage = new App1.QuotesPage();
+            MainPage = new App1.GridLayout();
         }
 
         protected override void OnStart()
