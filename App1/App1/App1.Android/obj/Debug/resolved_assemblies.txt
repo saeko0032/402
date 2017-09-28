@@ -23,13 +23,14 @@ C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Runtime.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Collections.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
+C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Linq.dll
+C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.ComponentModel.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Reflection.dll
-C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Collections.dll
-C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Globalization.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
@@ -37,7 +38,6 @@ C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Threading.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
-C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Linq.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
