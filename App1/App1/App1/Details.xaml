@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.Details" Title="{Binding Description}">
     <ContentPage.Content>
-        <StackLayout>
-
+        <StackLayout>dd
             <Label Text="{Binding Description}" />
         </StackLayout>
     </ContentPage.Content>
