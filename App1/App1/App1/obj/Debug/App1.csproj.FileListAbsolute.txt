@@ -15,7 +15,6 @@ C:\Users\saeko\source\repos\App1\App1\App1\obj\Debug\App1.App.xaml.g.cs
 C:\Users\saeko\source\repos\App1\App1\App1\obj\Debug\App1.dll
 C:\Users\saeko\source\repos\App1\App1\App1\obj\Debug\App1.pdb
 C:\Users\saeko\source\repos\App1\App1\App1\obj\Debug\App1.QuotesPage.xaml.g.cs
-C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.csproj.CoreCompileInputs.cache
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.MainPage.xaml.g.cs
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.App.xaml.g.cs
@@ -41,3 +40,7 @@ C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Welcome.xaml.g.cs
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Introduction.xaml.g.cs
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Contacts.xaml.g.cs
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Details.xaml.g.cs
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.TabbedPageDemo.xaml.g.cs
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.CarouselPageDemo.xaml.g.cs
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Profile.xaml.g.cs

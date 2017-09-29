@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.TabbedPageDemo">
+    <ContentPage Title="Activities" Icon="heart">
+        <ListView x:Name="listView" SelectedItem="ListView_Select">
+            <ListView.ItemTemplate>
+            <DataTemplate>
+                <!--<TextCell Text="{Binding Name}" Detail="{Bindind Status}" />-->
+                <!--<ImageCell Text="{Binding Name}" Detail="{Binding Status}" ImageSource="{Binding ImageUrl}"/> -->
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="{Binding ImageUrl}" />
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding Description}" VerticalOptions="Center" />
+                            </StackLayout>
+                        </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage>
+</TabbedPage>

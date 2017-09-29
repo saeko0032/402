@@ -24,9 +24,9 @@ namespace App1
             };
         }
 
-        private async void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        private async void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var Contact = e.SelectedItem as ContactData;
+            var Contact = e.SelectedItem as Activity;
             await Navigation.PushAsync(new Details(Contact));
         }
     }
