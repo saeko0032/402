@@ -26,8 +26,8 @@ C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Collections.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Linq.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Linq.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.ComponentModel.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\saeko\source\repos\402\App1\App1\App1.Android\obj\Debug\android\assets\System.Reflection.dll

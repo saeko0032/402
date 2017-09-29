@@ -42,12 +42,21 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="ContactData.cs" />
+    <Compile Include="Contacts.xaml.cs">
+      <DependentUpon>Contacts.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CustomCellList.xaml.cs">
       <DependentUpon>CustomCellList.xaml</DependentUpon>
     </Compile>
     <Compile Include="DemoListExample.cs" />
+    <Compile Include="Details.xaml.cs">
+      <DependentUpon>Details.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GridLayout.xaml.cs">
       <DependentUpon>GridLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Introduction.xaml.cs">
+      <DependentUpon>Introduction.xaml</DependentUpon>
     </Compile>
     <Compile Include="ListDemo.xaml.cs">
       <DependentUpon>ListDemo.xaml</DependentUpon>
@@ -61,6 +70,9 @@
     </Compile>
     <Compile Include="StackLayout.xaml.cs">
       <DependentUpon>StackLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.xaml.cs">
+      <DependentUpon>Welcome.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +131,30 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="StackLayout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Welcome.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Introduction.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Contacts.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Details.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

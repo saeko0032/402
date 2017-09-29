@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace App1
 {
-    class ContactData
+   public  class ContactData
     {
         public string Name { get; set; }
         public string Status { get; set; }

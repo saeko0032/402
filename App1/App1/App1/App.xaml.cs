@@ -13,7 +13,7 @@ namespace App1
         {
             InitializeComponent();
 
-            MainPage = new App1.StackLayout();
+            MainPage = new NavigationPage( new App1.Contacts());
         }
 
         protected override void OnStart()

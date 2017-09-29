@@ -37,3 +37,7 @@ C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.ListDemo.xaml.g.cs
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.CustomCellList.xaml.g.cs
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.ActionDemo.xaml.g.cs
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.StackLayout.xaml.g.cs
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Welcome.xaml.g.cs
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Introduction.xaml.g.cs
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Contacts.xaml.g.cs
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Details.xaml.g.cs
