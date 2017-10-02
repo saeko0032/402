@@ -42,5 +42,8 @@ C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Contacts.xaml.g.cs
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Details.xaml.g.cs
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.TabbedPageDemo.xaml.g.cs
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.CarouselPageDemo.xaml.g.cs
-C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
 C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.Profile.xaml.g.cs
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.PopUpDemo.xaml.g.cs
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.ActionSheetDemo.xaml.g.cs
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+C:\Users\saeko\source\repos\402\App1\App1\App1\obj\Debug\App1.UserControlDemo.xaml.g.cs

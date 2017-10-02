@@ -10,13 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace App1
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Details : ContentPage
+    public partial class UserControlDemo : ContentPage
     {
-        public Details(Activity contact)
+        public UserControlDemo()
         {
-           
             InitializeComponent();
-            BindingContext = contact ?? throw new ArgumentNullException();
+        }
+
+        private void Switch_Toggled(object sender, ToggledEventArgs e)
+        {
+           myLabel.IsVisible = e.Value;
         }
     }
 }

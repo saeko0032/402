@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.TabbedPageDemo">
     <ContentPage Title="Activities" Icon="heart">
-        <ListView x:Name="listView" SelectedItem="ListView_Select">
+        <ListView x:Name="listView" ItemSelected="listView_ItemSelected">
             <ListView.ItemTemplate>
             <DataTemplate>
                 <!--<TextCell Text="{Binding Name}" Detail="{Bindind Status}" />-->
