@@ -56,6 +56,7 @@ namespace App1
         {
             var menuItem = sender as MenuItem;
             var contact = menuItem.CommandParameter as ContactData;
+	    // doesn't work for iOS11
             myContacts.Remove(contact);
             DisplayAlert("Contact", contact.Name, "OK");
         }
