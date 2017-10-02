@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.EditorDemo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Phone" Keyboard="Numeric"/>
+            <Entry Placeholder="Email" Keyboard="Text"/>
+            <Entry IsPassword="True" Completed="Entry_Completed" />
+            <Entry IsPassword="True" TextChanged="Entry_TextChanged" />
+            <Label x:Name="myLabel" Text="hi" />
+            <Editor VerticalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -11,19 +11,15 @@
 namespace App1 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\saeko\\source\\repos\\402\\App1\\App1\\App1\\UserControlDemo.xaml")]
-    public partial class UserControlDemo : global::Xamarin.Forms.ContentPage {
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Switch mySwitch;
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\saeko\\source\\repos\\402\\App1\\App1\\App1\\EditorDemo.xaml")]
+    public partial class EditorDemo : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label myLabel;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(UserControlDemo));
-            mySwitch = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Switch>(this, "mySwitch");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(EditorDemo));
             myLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "myLabel");
         }
     }
