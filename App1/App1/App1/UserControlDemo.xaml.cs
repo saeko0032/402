@@ -17,9 +17,9 @@ namespace App1
             InitializeComponent();
         }
 
-        private void Switch_Toggled(object sender, ToggledEventArgs e)
-        {
-           myLabel.IsVisible = e.Value;
-        }
+       // private void Switch_Toggled(object sender, ToggledEventArgs e)
+      // {
+       //    myLabel.IsVisible = e.Value;
+      //  }
     }
 }

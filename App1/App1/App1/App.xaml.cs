@@ -13,7 +13,9 @@ namespace App1
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage( new App1.TabbedPageDemo());
+            // MainPage = new NavigationPage( new App1.TabbedPageDemo());
+            // MainPage = new App1.QuotesPage();
+            MainPage = new App1.ActionSheetDemo();
         }
 
         protected override void OnStart()
