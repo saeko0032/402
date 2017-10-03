@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PickerDemo.TableViewDemo">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView>
+                <TableRoot>
+                    <TableSection Title="Basic">
+                        <TextCell Text="Name" Detail="Test">
+                            
+                        </TextCell>
+                        <EntryCell Label="Title" Placeholder="(i.e. shopping)" />
+                        <EntryCell Label="Title" Placeholder="(i.e. eating)" />
+                        <SwitchCell Text="Notification" On="True" />
+                    </TableSection>
+                    <TableSection Title="Beginner">
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="22.0">
+                                <Label Text="Start Date" VerticalOptions="Center" />
+                                <DatePicker Date="3 Oct 2017" HorizontalOptions="EndAndExpand" />
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Beginner">
+                        <StackLayout Orientation="Horizontal" Padding="22.0">
+                            <ViewCell Tapped="ViewCell_Tapped">
+                                <Label x:Name="data"/>
+                            </ViewCell>
+                        </StackLayout>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
