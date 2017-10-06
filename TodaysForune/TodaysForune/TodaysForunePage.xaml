@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:TodaysForune"
+    x:Class="TodaysForune.TodaysForunePage"
+    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+        <Label Text="Today's Fortune" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Label Text="Enter Your Birthday" FontSize="18" />
+            <DatePicker Date="{x:Static sys:DateTime.Today}" Format="dd MMM" MaximumDate="31 Dec 2016" MinimumDate="1 Jan 1960" Unfocused="Handle_Unfocused" DateSelected="Handle_DateSelected" />
+            <Label IsVisible="false" x:Name="zodiacTitle" Text="Today's Fortune" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Label FontSize="30" IsVisible="false" x:Name="starRank" Text="★" TextColor="Yellow"/>
+            <Image BackgroundColor="Purple" IsVisible="false" x:Name="zodiacImg" x:Source="{local:ImageResource TodaysForune.Aries.png}" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+            <Label FontSize="20" x:Name="zodiacDetail" IsVisible="false" Text="AAAAAAAAAAAAAAAAA" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

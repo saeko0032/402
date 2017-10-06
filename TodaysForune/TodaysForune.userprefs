@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{3C679D6E-FD4A-46C0-969A-D36EF55EF169}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TodaysForune/TodaysForunePage.xaml">
+    <Files>
+      <File FileName="TodaysForune/TodaysForunePage.xaml" Line="13" Column="117" />
+      <File FileName="TodaysForune/TodaysForunePage.xaml.cs" Line="208" Column="28" />
+      <File FileName="TodaysForune/ImageResourceExtension.cs" Line="24" Column="10" />
+      <File FileName="TodaysForune/obj/Debug/TodaysForune.TodaysForunePage.xaml.g.cs" Line="30" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TodaysForune" expanded="True">
+            <Node name="TodaysForune" expanded="True">
+              <Node name="TodaysForunePage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TodaysForune.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F0420FB1-E396-47EE-9113-F8416BA8DDF7">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.TodaysForune.iOS>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
